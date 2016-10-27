@@ -1,0 +1,174 @@
+/***************************
+GENERAL
+***************************/
+
+body {
+  font-family: 'Poiret One', sans-serif;
+}
+
+#wwrapper{
+  max-width:940px;
+  margin: 0 auto;
+  padding:0 5%;
+}
+
+a {
+ text-decoration: none;
+}
+
+img {
+ max-width: 100%;
+}
+
+h3 {
+  font-family: 'Poiret One', sans-serif;
+  margin: 0 0 1em 0;
+  font-weight:800;
+}
+
+
+
+/***************************
+HEADING
+***************************/
+
+header {
+ float: right;
+  margin: 0 0 30px 0;
+  padding: 0 0 0 0;
+  width: 100%;
+}
+
+#wlogo{
+ text-align: center;
+  margin: 0;
+}
+
+h1{
+ font-family: 'Poiret One', sans-serif;
+ margin: -90px 0;
+  font-size: 3em;
+  font-weight:normal;
+  line-height:0.8em;
+  text-align:left;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin: 0.3em 0 0;
+  padding:0 20px 20px 30px;
+  font-weight:normal;
+  text-align:left;
+}
+
+
+/***************************
+FOOTER
+***************************/
+
+footer {
+ font-size: 0.75em;
+  text-align:center;
+  clear:both;
+  padding-top: 50px;
+  color: #CC9900;
+}
+
+/***************************
+PAGE: WORD
+***************************/
+
+#wgallery {
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+
+#wgallery li {
+ /*float:left;*/
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom: 130px;
+  /*margin:2.5%;*/
+  padding: 0.2% 0.2%  0% 0.2%;
+  background-color:#5A0000;
+  align:center;
+  color:black;
+}
+
+#wgallery li p {
+  padding:4%;
+  font-size:1em;
+  color: rgba(244,244,244,0.6);
+  background-color:black;
+}
+#verse{
+  margin-top:0;
+  padding-top: 25em;
+  padding-bottom: 3em;
+}
+
+.prayer{
+  font-family: cursive;
+  }
+
+.li-class {
+  background-color:black;
+}
+
+/***************************
+COLORS
+***************************/
+
+/* site body */
+body {
+  background-color:black;
+  color: #999;
+}
+
+/* links */
+a {
+   color: #CC9900;
+}
+
+/* green header */
+header {
+ position: relative;
+ margin-top: 0;
+ padding-top: 0;
+}
+
+/* logo text*/
+
+h1, h2{
+  color:#fff;
+  position: absolute;
+  top: 200px;
+  left: 50px;
+}
+
+h1 span  {
+  color: #CC9900;
+  letter-spacing: -1px;
+  background: rgb(0, 0, 0); /* fallback color*/
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+}
+h2 span {
+    color: white;
+    letter-spacing: -1px;
+    background: rgb(0, 0, 0); /* fallback color*/
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+  }
+
+  h3{
+    color:#CC9900;
+    padding: 10px 0 0 10px;
+    text-align:center;
+  }
+#wwrapper ul {
+  margin-top: 0;
+  padding-top:0;
+}

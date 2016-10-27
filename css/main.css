@@ -1,0 +1,332 @@
+/***************************
+GENERAL
+***************************/
+
+body {
+  font-family: 'Dosis', sans-serif;
+}
+
+#wrapper{
+  max-width:940px;
+  margin: 0 auto;
+  padding:0 5%;
+}
+
+a {
+ text-decoration: none;
+}
+
+img {
+ max-width: 100%;
+}
+
+h3 {
+  font-family:'Dosfi', sans-serif;
+  margin: 0 0 1em 0;
+  font-weight:800;
+}
+
+
+
+/***************************
+HEADING
+***************************/
+
+header {
+ float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+#logo{
+ text-align: center;
+  margin 0;
+}
+
+h1{
+ font-family: 'Poiret One', sans-serif;
+ margin: 50px 0;
+  font-size: 3em;
+  font-weight:normal;
+  line-height:0.8em;
+  text-align:left;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin: -5px 0 0;
+  padding:0 20px 20px 30px;
+  font-weight:normal;
+  text-align:left;
+}
+
+
+
+/***************************
+NAVIGATION
+***************************/
+
+nav {
+  text-align:center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul {
+  list-style:none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display:inline-block;
+}
+
+nav a {
+  font-weight:500px;
+  padding:15px 10px;
+}
+
+
+
+/***************************
+FOOTER
+***************************/
+
+footer {
+ font-size: 0.75em;
+  text-align:center;
+  clear:both;
+  padding-top: 50px;
+  color: #666
+}
+
+.social-icon {
+ width:30px;
+  height:30px;
+  margin:0 5px;
+}
+
+
+
+/***************************
+PAGE: PORTFOLIO
+***************************/
+
+#gallery {
+  margin:0px;
+  padding:0;
+  list-style:none;
+}
+
+#gallery li {
+  float: left;
+  width: 45%;
+  margin:2.5%;
+  margin-bottom: 10px;
+  background-color:#f5f5f5;
+  color: #bdc3c7;
+}
+
+@media screen and (max-width: 920px){
+  #gallery li {
+    width:90%;
+    margin-left:5%;
+    margin-right:5%;
+    clear:left;
+  }
+}
+
+#gallery li a p {
+ margin:0;
+  padding:5%;
+  font-size:0.75em;
+  color: #bdc3c7;
+}
+
+
+
+/***************************
+PAGE: ABOUT
+***************************/
+
+.profile-photo{
+  display: block;
+  max-width:300px;
+  margin:0 auto 30px;
+  border-radius:100%;
+}
+
+#face-photos img{
+  width:150%;
+  position: relative;
+  max-width: 400%;
+  right:233px;
+  height:auto;
+}
+.box-1-2 img{
+  width:50%;
+}
+
+
+
+/***************************
+PAGE: CONTACT
+***************************/
+
+.contact-info a {
+    display:block;
+    min-height:20px;
+    background-repeat: no-repeat;
+    background-size:20px 20px;
+    padding: 0 0 0 30px;
+    margin: 0 0 10px;
+}
+
+.contact-info {
+  list-style:none;
+  padding:0;
+  margin:0;
+  font-size:0.9em;
+}
+
+.contact-info li.phone a{
+   background-image:url('../Images/phone.png');
+}
+
+.contact-info li.mail a{
+   background-image:url('../Images/mail.png');
+}
+
+.contact-info li.linkedin a {
+  background-image:url('../Images/linkedin-wrap.png');
+}
+
+#contact {
+  background-color: #f5f5f5;
+  padding: 5%;
+}
+
+
+/***************************
+PAGE: FUN FACTS
+***************************/
+
+#left {
+  list-style:none;
+}
+
+#left p{
+  background-color:#f5f5f5;
+  float:right;
+  padding: 30px;
+  text-align:center;
+}
+
+#left p img{
+  float: left;
+  width: 250px;
+  margin: 0 30px 0 0;
+  background-color: #617589;
+  padding: 20px;
+}
+
+#right {
+  list-style:none;
+}
+
+#right p{
+  background-color:#f5f5f5;
+  float:left;
+  padding: 30px;
+  text-align:center;
+}
+
+#right p img{
+  float: right;
+  width: 250px;
+  margin: 0 0 0 30px;
+  background-color: #617589;
+  padding: 20px;
+}
+
+#leppic a img{
+  width: 350px;
+}
+
+#menu a img{
+  width:400px;
+}
+
+#menu2 a img{
+  width:300px;
+}
+#biblequiz2 a img {
+  height:150px;
+  width:600px;
+}
+
+/***************************
+COLORS
+***************************/
+
+/* site body */
+body {
+  background-color:#BCBCBC;
+  color: #999;
+}
+
+/* links */
+a {
+   color: #617589;
+}
+
+/* green header */
+header {
+ background:#53779A;
+}
+
+/* logo text*/
+h1, h2{
+ color:#fff;
+}
+
+/* nav background on mobile */
+nav {
+ background: #3A536C;
+}
+
+/* current nav link */
+nav a , nav a:visited{
+  color: white;
+}
+
+/* selected nav link*/
+nav a.selected, nav a:hover {
+  color: #617589;
+}
+
+/* portfolio objects*/
+#gallery li{
+  background-color: #617589;
+  text-align:center;
+}
+
+.profile-photo{
+  background-color: #617589;
+  padding: 20px;
+}
+
+#about{
+  background-color:#f5f5f5;
+  padding:5%;
+  margin-bottom: 30px;
+
+}
+
+#wrapper ul {
+  margin-top: 0;
+  padding-top:0;
+}
