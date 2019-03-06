@@ -2,7 +2,7 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>Eric Chi</title>
+		<title>Thomas Stewart</title>
 
 		<!-- Meta Tag -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,12 +20,13 @@
 		<link href="assets/css/materialize.min.css" rel="stylesheet">
 		<link href="assets/css/animate.css" rel="stylesheet">
 		<link href="assets/css/font-awesome.min.css" rel="stylesheet">
+		<link href="assets/css/nav.css" rel="stylesheet">
 		<link href="assets/css/style.css" rel="stylesheet">
 		<link href="assets/css/responsive.css" rel="stylesheet">
 
 	</head>
 	<body>
-		<!-- Main Container -->
+	<!-- Main Container -->
 		<div class="container">
 			<div class="row">
 				<!-- Sidebar -->
@@ -166,49 +167,88 @@
 					</div>
 				</aside>
 				<section class="col s12 m12 l8 section">
-					<!-- Email -->
-					<div class="section-wrapper z-depth-1">
-						<div class="section-icon col s12 m12 l2">
-							<i class="fa fa-paper-plane-o"></i>
-						</div>
-						<div class="col s12 m12 l10 wow fadeIn a1" data-wow-delay="0.1s">
-							<h2>Contact</h2>
-							<div class="contact-form" id="contact">
-								<div class="row">
-									<form method="POST" action="http://formspree.io/ericjaychi@gmail.com">
-										<div id="msgSubmit" class="h3 text-center hidden"></div>
-										<div class="input-field col s12">
-											<label for="name" class="h4">Name *</label>
-											<input name="name" type="text" class="form-control validate" id="name" required data-error="NEW ERROR MESSAGE">
-										</div>
-										<div class="input-field col s12">
-											<label for="email" class="h4">Email *</label>
-											<input name="email" type="email" class="form-control validate" id="email" required>
-										</div>
-										<div class="input-field col s12">
-											<label for="message" class="h4 ">Message *</label>
-											<textarea name="message" id="message" class="form-control materialize-textarea validate" required></textarea>
-										</div>
-										<button type="submit" class="btn btn-success">Submit</button>
-										<div class="clearfix"></div>
-									</form>
+					<!-- Projects -->
+					<div class="row">
+						<div class="full-portfolio">
+							<div class="wow fadeIn a1" data-wow-delay="0.1s">
+								<div class="portfolio-nav section-wrapper z-depth-1">
+									<h2 class="center">Projects</h2>
+								</div>
+								<div class="screenshots" id="portfolio-item">
+									<div class="row">
+										<ul class="grid">
+											<!-- Project Four -->
+											<li class="col m6 s12 mix category-1">
+												<a href="http://tinymetal.com/" target="_blank">
+													<figure class="more">
+														<img src="http://res.cloudinary.com/dzf64w6kx/image/upload/v1508718774/ericjaychi/projects/tinymetal.png" alt="Screenshot 01" class="">
+														<figcaption>
+															<div class="caption-content">
+																<div class="single_image">
+																	<h2>TINYMETAL</h2>
+																	<p>Landing page for a video game made by AREA 35.</p>
+																	<p><b>(2017)</b/></p>
+																</div>
+															</div>
+														</figcaption>
+													</figure>
+												</a>
+											</li>
+											<!-- Project One -->
+											<li class="col m6 s12 mix category-1">
+												<a href="http://www.n-adamson.com" target="_blank">
+													<figure class="more">
+														<img src="http://res.cloudinary.com/dzf64w6kx/image/upload/v1498157683/ericjaychi/projects/n-adamson.png" alt="Screenshot 01" class="">
+														<figcaption>
+															<div class="caption-content">
+																<div class="single_image">
+																	<h2>N-ADAMSON</h2>
+																	<p>Custom site showcasing a professional portfolio of artwork created by artist, Nicole Adamson</p>
+																	<p><b>(2016)</b></p>
+																</div>
+															</div>
+														</figcaption>
+													</figure>
+												</a>
+											</li>
+											<!-- Project Two -->
+											<li class="col m6 s12 mix category-1">
+												<a href="http://www.bhfloft.com" target="_blank">
+													<figure class="more">
+														<img src="http://res.cloudinary.com/dzf64w6kx/image/upload/v1498157683/ericjaychi/projects/bhfloft.png" alt="Screenshot 01" class="">
+														<figcaption>
+															<div class="caption-content">
+																<div class="single_image">
+																	<h2>BHFLOFT</h2>
+																	<p>Landing page built for a small event to help promote the company.</p>
+																	<p><b>(2016)</b></p>
+																</div>
+															</div>
+														</figcaption>
+													</figure>
+												</a>
+											</li>
+											<!-- Project Three -->
+											<li class="col m6 s12 mix category-1">
+												<a href="http://www.sqrealty.com" target="_blank">
+													<figure class="more">
+														<img src="http://res.cloudinary.com/dzf64w6kx/image/upload/v1498157684/ericjaychi/projects/sqrealty.png" alt="Screenshot 01" class="">
+														<figcaption>
+															<div class="caption-content">
+																<div class="single_image">
+																	<h2>SQREALTY</h2>
+																	<p>A site for a real estate company to help promote their services.</p>
+																	<p><b>(2015)</b/></p>
+																</div>
+															</div>
+														</figcaption>
+													</figure>
+												</a>
+											</li>
+										</ul>
+									</div>
 								</div>
 							</div>
-						</div>
-					</div>
-					<!-- Social Media -->
-					<div class="section-wrapper z-depth-1">
-						<div class="section-icon col s12 m12 l2"></div>
-						<div class="interests col s12 m12 l10 wow fadeIn" data-wow-delay="0.1s">
-							<h2>Social Media</h2>
-							<ul>
-								<a target="_blank" href="https://github.com/ericjaychi">
-									<li><i class="fa fa-github-square"></i></li>
-								</a>
-								<a target="_blank" href="https://www.linkedin.com/in/ericjaychi/">
-									<li><i class="fa fa-linkedin-square"></i></li>
-								</a>
-							</ul>
 						</div>
 					</div>
 				</section>
@@ -222,5 +262,6 @@
 	<script src="assets/js/wow.min.js"></script>
 	<script src="assets/js/masonry.pkgd.js"></script>
 	<script src="assets/js/validator.min.js"></script>
+	<script src="assets/js/jquery.mixitup.min.js"></script>
 	<script src="assets/js/init.js"></script>
 </html>
