@@ -19,13 +19,14 @@
 		<!-- CSS -->
 		<link href="assets/css/materialize.min.css" rel="stylesheet">
 		<link href="assets/css/animate.css" rel="stylesheet">
-		<link href="assets/css/font-awesome.min.css" rel="stylesheet">
+		<!-- <link href="assets/css/font-awesome.min.css" rel="stylesheet"> -->
+		<link href="assets/css/nav.css" rel="stylesheet">
 		<link href="assets/css/style.css" rel="stylesheet">
 		<link href="assets/css/responsive.css" rel="stylesheet">
 
 	</head>
 	<body>
-		<!-- Main Container -->
+	<!-- Main Container -->
 		<div class="container">
 			<div class="row">
 				<!-- Sidebar -->
@@ -166,61 +167,76 @@
 					</div>
 				</aside>
 				<section class="col s12 m12 l8 section">
-					<!-- Email -->
-					<div class="section-wrapper z-depth-1">
-						<div class="section-icon col s12 m12 l2">
-							<i class="fa fa-paper-plane-o"></i>
-						</div>
-						<div class="col s12 m12 l10 wow fadeIn a1" data-wow-delay="0.1s">
-							<h2>Contact</h2>
-							<div class="contact-form" id="contact">
-								<div class="row">
-									<form method="POST" action="http://formspree.io/stewart.thomas.w@gmail.com">
-										<div id="msgSubmit" class="h3 text-center hidden"></div>
-										<div class="input-field col s12">
-											<label for="name" class="h4">Name *</label>
-											<input name="name" type="text" class="form-control validate" id="name" required data-error="NEW ERROR MESSAGE">
-										</div>
-										<div class="input-field col s12">
-											<label for="email" class="h4">Email *</label>
-											<input name="email" type="email" class="form-control validate" id="email" required>
-										</div>
-										<div class="input-field col s12">
-											<label for="message" class="h4 ">Message *</label>
-											<textarea name="message" id="message" class="form-control materialize-textarea validate" required></textarea>
-										</div>
-										<button type="submit" class="btn btn-success">Submit</button>
-										<div class="clearfix"></div>
-									</form>
+					<!-- Projects -->
+					<div class="row">
+						<div class="full-portfolio">
+							<div class="wow fadeIn a1" data-wow-delay="0.1s">
+								<div class="portfolio-nav section-wrapper z-depth-1">
+									<a href="projects.html" style="float:left; padding:1%;"><i style="font-size:25px;" class="fa fa-xs fa-arrow-left"></i></a>
+									<h2 class="center">Procedural Terrain Generation</h2>
+								</div>
+								<div class="" id="portfolio-item">
+									<div class="row">
+										<ul class="grid">
+
+												<div id = "wrapper">
+														<li id = "right">
+														<p>
+															<img style="display: block;" class="myslides" src="assets/images/cavernescape2.png" alt="android program quiz 2" style="width:50%;">
+															<img style="display: none;" class="myslides" src="assets/images/cavernescape3.png" alt="android program quiz 2" style="width:50%;">
+															<img style="display: none;" class="myslides" src="assets/images/cavernescape4.png" alt="android program quiz 2" style="width:50%;">
+															<img style="display: none;" class="myslides" src="assets/images/cavernescape5.png" alt="android program quiz 2" style="width:50%;">
+															<img style="display: none;" class="myslides" src="assets/images/cavernescape7.png" alt="android program quiz 2" style="width:50%;">
+															<img style="display: none;" class="myslides" src="assets/images/cavernescape8.png" alt="android program quiz 2" style="width:50%;">
+															<!-- <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+															<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button> -->
+															Cavern Escape was my first dive into the world of mobile gaming. My goal was not to make a deep, technical game, but rather to go through the process of ideation to publishing.
+															<br><br>
+															The ability to take an idea and follow through with all steps involved to finish it is something I highly value. In the process of creating this game I learned an incredible amount about Unity and the mobile testing & publishing process.
+															<br><br>
+															You can find the listing <a style="color:#8bb7d4" href="https://play.google.com/store/apps/details?id=com.thomaswstewart.cavernescape" target="_blank">here.</a>
+															<br><br>
+														</p>
+														  </li>
+													</div>
+
+										</ul>
+									</div>
 								</div>
 							</div>
-						</div>
-					</div>
-					<!-- Social Media -->
-					<div class="section-wrapper z-depth-1">
-						<div class="section-icon col s12 m12 l2"></div>
-						<div class="interests col s12 m12 l10 wow fadeIn" data-wow-delay="0.1s">
-							<h2>Social Media</h2>
-							<ul>
-								<a target="_blank" href="https://github.com/thomas-stewart">
-									<li><i class="fa fa-github-square"></i></li>
-								</a>
-								<a target="_blank" href="https://www.linkedin.com/in/thomaswstewart/">
-									<li><i class="fa fa-linkedin-square"></i></li>
-								</a>
-							</ul>
 						</div>
 					</div>
 				</section>
 			</div>
 		</div>
 	</body>
+<script type="text/javascript">
+	var slideIndex = 1;
 
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+setInterval(function() {
+	showDivs(slideIndex += 1);
+}, 2000);
+</script>
 	<!-- JavaScript -->
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/materialize.min.js"></script>
 	<script src="assets/js/wow.min.js"></script>
 	<script src="assets/js/masonry.pkgd.js"></script>
 	<script src="assets/js/validator.min.js"></script>
+	<script src="assets/js/jquery.mixitup.min.js"></script>
 	<script src="assets/js/init.js"></script>
 </html>

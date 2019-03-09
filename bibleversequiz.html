@@ -20,12 +20,13 @@
 		<link href="assets/css/materialize.min.css" rel="stylesheet">
 		<link href="assets/css/animate.css" rel="stylesheet">
 		<link href="assets/css/font-awesome.min.css" rel="stylesheet">
+		<link href="assets/css/nav.css" rel="stylesheet">
 		<link href="assets/css/style.css" rel="stylesheet">
 		<link href="assets/css/responsive.css" rel="stylesheet">
 
 	</head>
 	<body>
-		<!-- Main Container -->
+	<!-- Main Container -->
 		<div class="container">
 			<div class="row">
 				<!-- Sidebar -->
@@ -166,49 +167,41 @@
 					</div>
 				</aside>
 				<section class="col s12 m12 l8 section">
-					<!-- Email -->
-					<div class="section-wrapper z-depth-1">
-						<div class="section-icon col s12 m12 l2">
-							<i class="fa fa-paper-plane-o"></i>
-						</div>
-						<div class="col s12 m12 l10 wow fadeIn a1" data-wow-delay="0.1s">
-							<h2>Contact</h2>
-							<div class="contact-form" id="contact">
-								<div class="row">
-									<form method="POST" action="http://formspree.io/stewart.thomas.w@gmail.com">
-										<div id="msgSubmit" class="h3 text-center hidden"></div>
-										<div class="input-field col s12">
-											<label for="name" class="h4">Name *</label>
-											<input name="name" type="text" class="form-control validate" id="name" required data-error="NEW ERROR MESSAGE">
-										</div>
-										<div class="input-field col s12">
-											<label for="email" class="h4">Email *</label>
-											<input name="email" type="email" class="form-control validate" id="email" required>
-										</div>
-										<div class="input-field col s12">
-											<label for="message" class="h4 ">Message *</label>
-											<textarea name="message" id="message" class="form-control materialize-textarea validate" required></textarea>
-										</div>
-										<button type="submit" class="btn btn-success">Submit</button>
-										<div class="clearfix"></div>
-									</form>
+					<!-- Projects -->
+					<div class="row">
+						<div class="full-portfolio">
+							<div class="wow fadeIn a1" data-wow-delay="0.1s">
+								<div class="portfolio-nav section-wrapper z-depth-1">
+									<a href="projects.html" style="float:left; padding:1%;"><i style="font-size:25px;" class="fa fa-xs fa-arrow-left"></i></a>
+									<h2 class="center">Bible Verse Quiz</h2>
+								</div>
+								<div class="" id="portfolio-item">
+									<div class="row">
+										<ul class="grid">
+
+												<div id = "wrapper">
+														<li id = "right">
+														<p id = "biblequiz2">
+															<img src="assets/images/bquiz2.jpg" alt="android program quiz 2" style="width:50%;">
+															I created an Android application that fetches data from an open API and generates random wrong answers for the
+															users to be quizzed on.
+															<br><br>
+															Even though I created and released this very basic app four years ago, it is still accruing
+															downloads on the Play Store almost every day.
+															<br><br>
+															You can find the listing <a style="color:#8bb7d4" href="https://play.google.com/store/apps/details?id=stewart.w.thomas.biblequizzer">here.</a>
+															<br><br>
+															This was a great project for me as a student because I was able to learn the app publishing process while building with
+															Java, Android, parsing, APIs, and threads.
+															<br><br>You can view the source files on Github <a href = "https://github.com/Thomas-Stewart/BibleQuizzerAndroid" target="_blank">here.</a>
+														</p>
+														  </li>
+													</div>
+
+										</ul>
+									</div>
 								</div>
 							</div>
-						</div>
-					</div>
-					<!-- Social Media -->
-					<div class="section-wrapper z-depth-1">
-						<div class="section-icon col s12 m12 l2"></div>
-						<div class="interests col s12 m12 l10 wow fadeIn" data-wow-delay="0.1s">
-							<h2>Social Media</h2>
-							<ul>
-								<a target="_blank" href="https://github.com/thomas-stewart">
-									<li><i class="fa fa-github-square"></i></li>
-								</a>
-								<a target="_blank" href="https://www.linkedin.com/in/thomaswstewart/">
-									<li><i class="fa fa-linkedin-square"></i></li>
-								</a>
-							</ul>
 						</div>
 					</div>
 				</section>
@@ -222,5 +215,6 @@
 	<script src="assets/js/wow.min.js"></script>
 	<script src="assets/js/masonry.pkgd.js"></script>
 	<script src="assets/js/validator.min.js"></script>
+	<script src="assets/js/jquery.mixitup.min.js"></script>
 	<script src="assets/js/init.js"></script>
 </html>

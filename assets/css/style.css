@@ -19,14 +19,71 @@
 ------------------------------------------------------------------*/
 /*------------------------------------------------------------------
 [ Color codes ]
-		main-color:         #5da4d9;
-		Blue:               #71DD75 (Blue)    [ This is the main color in Template ]
+		main-color:         #8bb7d4;
+		Blue:               #8bb7d4 (Blue)    [ This is the main color in Template ]
 		white:              #FFFFFF (White)     [  ]
 		body-bg-color:      #eae8e7            [ body bg color ]
 		font-color:         #767270             [ font color  ]
 		border-color:       #4783c2;
 
 ------------------------------------------------------------------ */
+.sort-info {
+	padding-top: 5% !important;
+}
+
+#wrapper{
+	max-width:940px;
+	margin: 0 auto;
+	padding:0 5%;
+}
+
+#wrapper ul {
+	margin-top: 0;
+	padding-top:0;
+}
+
+#left {
+	list-style:none;
+  }
+
+  #left p{
+	background-color:#f5f5f5;
+	float:right;
+	padding: 30px;
+	text-align:center;
+  }
+
+  #left p img{
+	float: left;
+	width: 250px;
+	margin: 0 30px 0 0;
+	background-color: #8bb7d4;
+	padding: 20px;
+  }
+
+  #right {
+	list-style:none;
+  }
+
+  #right p{
+	background-color:#f5f5f5;
+	float:left;
+	padding: 30px;
+	text-align:center;
+  }
+
+  #right p img{
+	float: right;
+	width: 250px;
+	margin: 0 0 0 30px;
+	background-color: #8bb7d4;
+	padding: 20px;
+	border-radius: 25px;
+  }
+
+/* ####### CUSTOM end */
+
+
 * {
 	font-family: 'roboto', sans-serif;
 }
@@ -40,7 +97,7 @@ p {
 	line-height: 17pt;
 }
 a {
-	color: #ffffff;
+	color: #8bb7d4;
 }
 .clear {
 	clear: both;
@@ -127,7 +184,7 @@ body {
 .sidebar {
 	text-align: left;
 	color: #ffffff;
-	background-color: #5da4d9;
+	background-color: #8bb7d4;
 	overflow: hidden;
 	display: block;
 }
@@ -156,16 +213,16 @@ body {
 	height: 30px;
 	font-size: 18pt;
 	line-height: 24pt;
-	background-color: #5da4d9;
+	background-color: #8bb7d4;
 	margin-top: 20px;
 	padding: 0px 6px;
 }
 .sidebar .heading nav .side-nav h3 {
-	color: #5da4d9;
+	color: #8bb7d4;
 	padding: 0 15px;
 }
 .sidebar .heading nav .side-nav li a:hover {
-	color: #5da4d9;
+	color: #8bb7d4;
 }
 .sidebar .heading nav .side-nav li:hover {
 	background-color: transparent !important;
@@ -307,7 +364,7 @@ body {
 	color: #767270;
 }
 .custom-content-wrapper span {
-	color: #5da4d9;
+	color: #8bb7d4;
 	margin-top: 0px;
 	font-size: 10pt;
 	line-height: 15pt;
@@ -330,7 +387,7 @@ body {
 	width: 19%;
 }
 .interests ul li .fa {
-	color: #5da4d9;
+	color: #8bb7d4;
 	text-align: left;
 }
 /* style for
@@ -347,7 +404,7 @@ body {
 	line-height: 18pt;
 }
 .website span a {
-	color: #5da4d9;
+	color: #8bb7d4;
 	word-wrap: break-word;
 }
 /* style for
@@ -494,7 +551,7 @@ input[type=tel]:focus:not([readonly]),
 input[type=number]:focus:not([readonly]),
 input[type=search]:focus:not([readonly]),
 textarea.materialize-textarea:focus:not([readonly]) {
-	border-bottom: 1px solid #5da4d9;
+	border-bottom: 1px solid #8bb7d4;
 }
 input[type=text]:focus:not([readonly]) + label,
 input[type=password]:focus:not([readonly]) + label,
@@ -507,19 +564,19 @@ input[type=tel]:focus:not([readonly]) + label,
 input[type=number]:focus:not([readonly]) + label,
 input[type=search]:focus:not([readonly]) + label,
 textarea.materialize-textarea:focus:not([readonly]) + label {
-	color: #5da4d9;
+	color: #8bb7d4;
 }
 .waves-me:focus {
-	background-color: #5da4d9;
+	background-color: #8bb7d4;
 	color: #fff;
 }
 .btn {
 	margin-left: 10px;
-	background-color: #5da4d9;
+	background-color: #8bb7d4;
 }
 .btn:hover,
 .btn:focus {
-	background-color: #5da4d9;
+	background-color: #8bb7d4;
 }
 .email-success,
 .email-failed {
@@ -528,17 +585,17 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
 	margin: 0 0 0 0 !important;
 }
 .btn.disabled {
-	background-color: #5da4d9;
+	background-color: #8bb7d4;
 	color: #fff;
 	cursor: default;
 }
 .btn.disabled:focus {
-	background-color: #5da4d9;
+	background-color: #8bb7d4;
 	color: #fff;
 	cursor: default;
 }
 .btn.disabled:hover {
-	background-color: #5da4d9;
+	background-color: #8bb7d4;
 	color: #fff;
 	cursor: default;
 }
@@ -551,7 +608,7 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
 	color: red;
 }
 .text-success {
-	color: #5da4d9 ;
+	color: #8bb7d4 ;
 }
 /*
 |----------------------------------------------------------------------------
@@ -667,5 +724,5 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
 	padding: 30px;
 }
 .project-information li a {
-	color: #5da4d9;
+	color: #8bb7d4;
 }
