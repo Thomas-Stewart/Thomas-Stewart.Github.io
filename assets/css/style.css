@@ -27,6 +27,33 @@
 		border-color:       #4783c2;
 
 ------------------------------------------------------------------ */
+
+
+.projectsButton {
+	background-color:#8bb7d4;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #4783c2;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:10px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #4783c2;
+}
+.projectsButton:hover {
+	background-color:#4783c2;
+}
+.projectsButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+
 .sort-info {
 	padding-top: 5% !important;
 }
