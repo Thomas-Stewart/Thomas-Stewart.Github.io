@@ -27,7 +27,12 @@
 		border-color:       #4783c2;
 
 ------------------------------------------------------------------ */
-
+@media only screen and (max-device-width: 650px) {
+	.under-imgs img {
+		width: 100% !important;
+		float: right !important;
+	}
+}
 
 .projectsButton {
 	background-color:#8bb7d4;
